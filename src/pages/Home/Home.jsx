@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import "./Home.css";
 import { Link, useNavigate } from "react-router-dom";
 import { MenuItems } from "../../MenuItems";
-import Typed from "typed.js";
 
 const Home = () => {
   const [category, setCategory] = useState("All");
