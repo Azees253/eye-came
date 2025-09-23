@@ -84,7 +84,7 @@
   .login-popup-container {
     display: flex;
     flex-direction: column;
-    width: max(23vw, 330px);
+    width: max(23vw, 250px);
     color: #808080;
     padding: 20px 25px;
     background-color: white;
