@@ -7,28 +7,11 @@ const Home = () => {
   const [category, setCategory] = useState("All");
   const navigate = useNavigate();
 
-  // useEffect(() => {
-  //   const options = {
-  //     strings: ["Camera Fitting", "servies us", "Installing"],
-  //     typeSpeed: 100,
-  //     backSpeed: 100,
-  //     backDelay: 1000,
-  //     loop: true,
-  //   };
-  //   const typed = new Typed("#element", options);
-
-  //   return () => typed.destroy();
-  // }, []);
   return (
     <>
       <div className="header">
         <div className="row">
           <div className="col-2">
-            {/* <div className="eye-came">
-              <h1>
-                EYE-CAME :<span id="element"></span>
-              </h1>
-            </div> */}
             <h1>
               Give Your Electroincs
               <br />A New Items!

@@ -21,11 +21,14 @@
 
 @media screen and (max-width: 600px) {
   .header-contain img {
-    width: 80px;
-    height: 80px;
+    width: 50px;
+    height: 50px;
   }
   .header-contain {
-    padding: 20px;
+    padding: 30px;
+  }
+  .header-contain p {
+    font-size: 10px;
   }
   .header-contain .active {
     padding: 0.5px;

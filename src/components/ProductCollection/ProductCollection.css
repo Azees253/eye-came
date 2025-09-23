@@ -2,7 +2,9 @@
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
+  flex-basis: 50%;
 }
+
 .collection-item img {
   height: 200px;
   border-top-left-radius: 20px;
@@ -63,4 +65,23 @@
   background-color: rgba(6, 6, 122, 0.774);
   color: white;
   cursor: pointer;
+}
+
+@media screen and (max-width: 800px) {
+  .collection-item img {
+    height: 220px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+  }
+  .headers h4 {
+    margin-bottom: 5px;
+    font-size: 15px;
+  }
+  .headers p {
+    margin-bottom: 5px;
+    font-size: 10px;
+  }
+  .Qty-container button {
+    font-size: 12px;
+  }
 }

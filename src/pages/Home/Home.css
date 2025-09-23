@@ -36,8 +36,6 @@
 }
 .header {
   background: radial-gradient(#fff, rgba(3, 3, 182, 0.562));
-  border-bottom-left-radius: 20px;
-  border-bottom-right-radius: 20px;
 }
 .btn:hover {
   background: #563434;
@@ -55,16 +53,14 @@
   border-radius: 10px;
 }
 .small-container {
-  max-width: 1080px;
+  max-width: 1500px;
   margin: auto;
-  padding-left: 25px;
-  padding-right: 25px;
 }
 .col-4 {
   flex-basis: 25%;
-  padding: 10px;
-  min-width: 200px;
-  margin-bottom: 50px;
+  padding: 20px;
+  /* min-width: 200px;
+  margin-bottom: 50px; */
 }
 .col-4 img {
   width: 100%;
@@ -165,7 +161,7 @@ h4 {
   .col-2,
   .col-3,
   .col-4 {
-    flex-basis: 80%;
+    flex-basis: 100%;
     padding: 20px;
   }
   .col-2 h1 {

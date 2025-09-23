@@ -41,11 +41,11 @@
 
 @media screen and (max-width: 800px) {
   .servies-details {
-    height: 150px;
+    height: 120px;
   }
   .servies-details img {
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 120px;
   }
   .servies-details-inside {
     padding: 5px;
