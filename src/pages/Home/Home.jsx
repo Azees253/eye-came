@@ -2,9 +2,11 @@ import React, { useEffect, useState } from "react";
 import "./Home.css";
 import { Link, useNavigate } from "react-router-dom";
 import { MenuItems } from "../../MenuItems";
+import Header from "../../components/Header/Header";
+import ProductItems from "../../components/ProductItems/ProductItems";
 
 const Home = () => {
-  const [category, setCategory] = useState("All");
+  const [category, setCatgory] = useState("All");
   const navigate = useNavigate();
 
   return (
@@ -33,7 +35,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className="categories">
+      {/* <div className="categories">
         <div className="small-container">
           <div className="row">
             <div className="col-3">
@@ -183,7 +185,9 @@ const Home = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
+      <Header category={category} setCatgory={setCatgory} />
+      <ProductItems category={category} setCatgory={setCatgory} />
     </>
   );
 };

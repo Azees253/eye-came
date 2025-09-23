@@ -165,9 +165,9 @@ h4 {
     padding: 20px;
   }
   .col-2 h1 {
-    font-size: 17px;
+    font-size: 12px;
     display: flex;
-    line-height: 30px;
+    line-height: 20px;
     margin-top: 5px;
   }
   .col-2 p {
