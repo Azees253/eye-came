@@ -78,8 +78,8 @@
     margin-top: -50%;
   }
   .login-popup {
-    width: 100%;
-    left: -20px;
+    width: 120%;
+    left: -70px;
   }
   .login-popup-container {
     display: flex;
