@@ -6,6 +6,10 @@
     rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
   border-radius: 10px;
   height: 200px;
+  width: 70%;
+  margin: auto;
+  gap: 10px;
+  margin-bottom: 20px;
 }
 .servies-details img {
   width: 220px;
@@ -42,6 +46,7 @@
 @media screen and (max-width: 800px) {
   .servies-details {
     height: 120px;
+    width: 100%;
   }
   .servies-details img {
     width: 100px;

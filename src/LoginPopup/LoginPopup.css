@@ -57,8 +57,7 @@
 }
 @media screen and (max-width: 800px) {
   .login-popup {
-    width: 150%;
-    left: -20px;
+    width: 95%;
   }
 }
 @media (max-width: 600px) {
@@ -78,7 +77,7 @@
     margin-top: -50%;
   }
   .login-popup {
-    width: 100%;
+    width: 95%;
   }
   .login-popup-container {
     display: flex;
