@@ -62,7 +62,6 @@
   }
   .login-popup-container {
     display: flex;
-    margin-top: -250%;
   }
 }
 @media (max-width: 590px) {
@@ -72,7 +71,7 @@
   .login-popup-container {
     display: flex;
     margin-left: -10%;
-    margin-top: -350%;
+
     width: min(83vw, 330px);
   }
 }
