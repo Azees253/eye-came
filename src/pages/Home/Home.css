@@ -155,7 +155,7 @@ h4 {
     padding: 0;
   }
   .col-2 img {
-    max-width: 60%;
+    max-width: 70%;
     padding: 0;
   }
 
@@ -166,7 +166,9 @@ h4 {
   }
   .col-2 {
     margin-left: 20%;
-    padding: 20px;
+    padding-top: 20px;
+    padding-top: 20px;
+    margin-right: 0;
   }
   .col-2 h1 {
     font-size: 12px;
@@ -178,7 +180,7 @@ h4 {
     font-size: 12px;
     text-align: start;
     display: flex;
-    width: 100%;
+    width: 60%;
     margin-top: 10px;
     margin-left: -15%;
   }
