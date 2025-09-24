@@ -157,6 +157,7 @@ h4 {
   .col-2 img {
     max-width: 70%;
     padding: 0;
+    margin-left: -20%;
   }
 
   .col-3,
