@@ -158,10 +158,14 @@ h4 {
     max-width: 60%;
     padding: 0;
   }
-  .col-2,
+
   .col-3,
   .col-4 {
     flex-basis: 100%;
+    padding: 20px;
+  }
+  .col-2 {
+    margin-left: 20%;
     padding: 20px;
   }
   .col-2 h1 {

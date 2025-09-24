@@ -15,7 +15,7 @@ const Home = () => {
         <div className="row">
           <div className="col-2">
             <h1>
-              Give Your Electroincs
+              EYE-CAME-TECH
               <br />A New Items!
             </h1>
             <p>
