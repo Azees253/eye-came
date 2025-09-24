@@ -175,12 +175,12 @@ h4 {
     margin-top: 5px;
   }
   .col-2 p {
-    font-size: 10px;
+    font-size: 12px;
     text-align: start;
     display: flex;
-    width: 60%;
+    width: 100%;
     margin-top: 10px;
-    margin-left: 5%;
+    margin-left: -15%;
   }
   .offer h1 {
     font-size: 18px;
