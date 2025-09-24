@@ -15,7 +15,7 @@ a {
   color: inherit;
 }
 .app {
-  width: 95%;
+  width: 80%;
   margin: auto;
 }
 .nav-menu {
@@ -28,5 +28,17 @@ a {
   }
   100% {
     opacity: 1;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .app {
+    width: 90%;
+    margin: auto;
+  }
+}
+@media screen and (max-width: 600px) {
+  .app {
+    width: 95%;
   }
 }

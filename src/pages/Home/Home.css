@@ -151,8 +151,7 @@ h4 {
 
 @media screen and (max-width: 600px) {
   .row {
-    text-align: start;
-    padding: 0;
+    padding: 10px;
   }
   .col-2 img {
     max-width: 70%;
@@ -166,10 +165,11 @@ h4 {
     padding: 20px;
   }
   .col-2 {
-    margin-left: 20%;
+    margin-left: 28%;
     padding-top: 20px;
     padding-top: 20px;
     margin-right: 0;
+    flex-basis: 80%;
   }
   .col-2 h1 {
     font-size: 12px;
