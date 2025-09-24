@@ -33,12 +33,12 @@ a {
 
 @media screen and (max-width: 800px) {
   .app {
-    width: 90%;
+    width: 100%;
     margin: auto;
   }
 }
 @media screen and (max-width: 600px) {
   .app {
-    width: 95%;
+    width: 100%;
   }
 }

@@ -2,7 +2,8 @@
   position: fixed;
   display: grid;
   background-color: #00000090;
-  width: 80%;
+  width: 120%;
+  margin-left: -20%;
   height: 100%;
   z-index: 9999;
 }
@@ -55,19 +56,14 @@
   color: blue;
   cursor: pointer;
 }
-@media screen and (max-width: 760px) {
-  .login-popup {
-    width: 70%;
-    padding: 20px;
-  }
+@media screen and (max-width: 660px) {
   .login-popup-container {
     display: flex;
+    margin-left: -30%;
+    width: min(83vw, 330px);
   }
 }
 @media (max-width: 590px) {
-  .login-popup {
-    width: 75%;
-  }
   .login-popup-container {
     display: flex;
     margin-left: -10%;
