@@ -94,6 +94,7 @@
   }
 
   .col-2-1 img {
+    flex-basis: 100%;
     margin-top: -150px;
   }
 

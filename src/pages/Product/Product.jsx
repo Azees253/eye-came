@@ -87,14 +87,13 @@ const Product = () => {
 
       <div className="offer1">
         <div className="row4">
-          <div className="col-2-1">
+          <div className="col-2">
             <img
               src="https://www.kent.co.in/images/ro/ro-water-purifiers-banner.png"
               alt=""
-              className="offer1-img"
             />
           </div>
-          <div className="col-2-1">
+          <div className="col-2">
             <p>Exclusively Available on E-com</p>
             <h1> Water Purifier </h1>
             <div className="small1">
