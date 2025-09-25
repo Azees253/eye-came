@@ -11,7 +11,7 @@ const Home = () => {
 
   return (
     <>
-      <div className="header">
+      {/* <div className="header">
         <div className="row">
           <div className="col-2">
             <h1>
@@ -34,7 +34,7 @@ const Home = () => {
             />
           </div>
         </div>
-      </div>
+      </div> */}
       {/* <div className="categories">
         <div className="small-container">
           <div className="row">
