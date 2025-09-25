@@ -12,6 +12,7 @@
 }
 .col-2 img {
   max-width: 100%;
+  animation: fadeIn 3s;
 }
 /* .row {
   display: flex;

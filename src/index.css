@@ -40,5 +40,6 @@ a {
 @media screen and (max-width: 600px) {
   .app {
     width: 95%;
+    margin: auto;
   }
 }
