@@ -60,32 +60,30 @@ const Product = () => {
           })}
         </div>
       </div>
-      <div className="offer1">
-        <div className="small-container3">
-          <div className="row4">
-            <div className="col-2-1">
-              <img
-                src="https://www.kent.co.in/images/ro/ro-water-purifiers-banner.png"
-                alt=""
-                className="offer1-img"
-              />
+      {/* <div className="offer1">
+        <div className="row4">
+          <div className="col-2-1">
+            <img
+              src="https://www.kent.co.in/images/ro/ro-water-purifiers-banner.png"
+              alt=""
+              className="offer1-img"
+            />
+          </div>
+          <div className="col-2-1">
+            <p>Exclusively Available on E-com</p>
+            <h1> Water Purifier </h1>
+            <div className="small1">
+              The Mi Smart Band 4 is a smart fitness band that comes with a
+              0.95-inch AMOLED color display, heart rate monitoring, and up to
+              20 days of battery life.
             </div>
-            <div className="col-2-1">
-              <p>Exclusively Available on Ecom</p>
-              <h1> Water Purifier </h1>
-              <div className="small1">
-                The Mi Smart Band 4 is a smart fitness band that comes with a
-                0.95-inch AMOLED color display, heart rate monitoring, and up to
-                20 days of battery life.
-              </div>
 
-              <Link to="/product" className="col-2-1-btn">
-                Buy Now &#8594;
-              </Link>
-            </div>
+            <Link to="/product" className="col-2-1-btn">
+              Buy Now &#8594;
+            </Link>
           </div>
         </div>
-      </div>
+      </div> */}
       <div className="testimonial">
         <div className="small-container1">
           <div className="row1">
